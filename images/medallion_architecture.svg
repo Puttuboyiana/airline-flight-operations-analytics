@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="757" height="522" viewBox="0 0 757 522">
+<rect width="757" height="522" fill="#000"/>
+<g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+<text x="16" y="23" text-anchor="start" fill="#f2f2f2" font-size="16" font-weight="bold">Your Airline Medallion Architecture</text>
+<rect x="8" y="38" width="743" height="102" rx="9" fill="#e9a443"/>
+<text x="379" y="70" fill="#39230d" font-size="18" font-weight="bold">BRONZE LAYER</text>
+<text x="379" y="100" fill="#171717" font-size="16" font-weight="bold">Raw Airline Flight Data</text>
+<text x="379" y="124" fill="#5c4528" font-size="13">CSV ingestion · bronze_airline_flights</text>
+<path d="M379 151 v12 m-5 -5 5 5 5 -5" stroke="#ddd" stroke-width="2" fill="none"/>
+<rect x="8" y="175" width="743" height="103" rx="9" fill="#a9b9ca"/>
+<text x="379" y="208" fill="#193047" font-size="18" font-weight="bold">SILVER LAYER</text>
+<text x="379" y="239" fill="#111" font-size="16" font-weight="bold">Cleaned &amp; Validated Data</text>
+<text x="379" y="262" fill="#34495e" font-size="13">silver_airline_flights · rejected_airline_flights</text>
+<path d="M379 289 v12 m-5 -5 5 5 5 -5" stroke="#ddd" stroke-width="2" fill="none"/>
+<rect x="8" y="314" width="743" height="101" rx="9" fill="#d8bc5c"/>
+<text x="379" y="347" fill="#443716" font-size="18" font-weight="bold">GOLD LAYER</text>
+<text x="379" y="378" fill="#171717" font-size="16" font-weight="bold">Business-Ready Data</text>
+<text x="379" y="401" fill="#5a4a20" font-size="13">Airline · Monthly · Route · Delay · Data Quality</text>
+<path d="M379 426 v12 m-5 -5 5 5 5 -5" stroke="#ddd" stroke-width="2" fill="none"/>
+<rect x="8" y="451" width="743" height="71" rx="9" fill="#303030" stroke="#555"/>
+<text x="379" y="486" fill="#eee" font-size="18" font-weight="bold">AIRLINE ANALYTICS DASHBOARD</text>
+<text x="379" y="510" fill="#ccc" font-size="13">Flight performance · Revenue · Delays · Data Quality</text>
+</g></svg>
