@@ -42,7 +42,10 @@ The duplicate count is a distinct-ID comparison. The rejected and duplicate clas
 - `sql/08_gold_data_quality.sql` — quality-count snapshot
 - `sql/09_validation_queries.sql` — validation queries
 - `pipeline/IMPLEMENTATION_NOTES.md` — implementation notes
-- `screenshots/ADD_SCREENSHOTS_HERE.md` — screenshot guidance
+- `screenshots/PROJECT_SCREENSHOTS.md` — eight supplied project images
+
+## Project screenshots
+See [all eight project screenshots](screenshots/PROJECT_SCREENSHOTS.md).
 
 ## Databricks setup
 1. Upload the source CSV to `/Volumes/workspace/flights/raw_files/`.
@@ -57,7 +60,7 @@ The SQL uses the source Volume path above. Update the path if your Volume locati
 - A separate automated Lakeflow pipeline deployment is not included.
 - Missing delay values were not recalculated from scheduled and actual departure timestamps in this implementation.
 - The rejected-record rules are the explicit checks in `03_rejected_records.sql`; they do not claim to capture every possible data-quality issue.
-- The original CSV and real Databricks screenshots are intentionally not included. Add screenshots you capture from your own workspace.
+- The original CSV is not included. The supplied screenshots are embedded from their existing Medium CDN URLs; their binaries are not stored in this repository.
 
 ## Analytical highlights
 - Sky Jet has the highest flight count among the named airlines in the Silver output.
