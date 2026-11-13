@@ -47,6 +47,9 @@ The duplicate count is a distinct-ID comparison. The rejected and duplicate clas
 ## Project screenshots
 See [all eight project screenshots](screenshots/PROJECT_SCREENSHOTS.md).
 
+## Project screenshots
+See [all eight project screenshots](screenshots/PROJECT_SCREENSHOTS.md).
+
 ## Databricks setup
 1. Upload the source CSV to `/Volumes/workspace/flights/raw_files/`.
 2. Use catalog/schema `workspace.flights`.
